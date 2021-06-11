@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+#showcase {
+  width: 100vw;
+  height: 100vh;
+  max-width: 900px;
+  position: relative;
+}
+#showcase .showcase-container {
+  position: relative;
+  top: 10%;
+  left: 40%;
+  max-width: 900px;
+  display: flex;
+  max-height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main-menu {
+  height: 450px;
+  width: 300px;
+  text-align: center;
+}
+.menu {
+  height: 350px;
+  border: 0.8px solid gray;
+  background: #ffffff;
+  margin-bottom: 15px;
+}
+.menu .logo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-family: "Pattaya", sans-serif;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #262626;
+}
+
+.menu p {
+  font-size: 13px;
+  color: gray;
+}
+.menu h5 {
+  font-size: 15px;
+  margin: 10px 0;
+  color: rgb(11, 33, 75);
+}
+.menu a {
+  text-decoration: none;
+  font-size: 13px;
+  color: gray;
+  margin-top: 30px;
+}
+.menu input {
+  width: 85%;
+  margin: 5px 0;
+  height: 40px;
+  padding: 0 7px;
+  border: 0.3px solid gray;
+  background: #fafafa;
+  outline: none;
+}
+.menu button {
+  width: 85%;
+  margin: 15px 0;
+  height: 30px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background: turquoise;
+}
+.small-menu {
+  height: 60px;
+  border: 0.3px solid grey;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.small-menu a {
+  text-decoration: none;
+  color: rgb(58, 176, 245);
+}
+
+.page p {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.black-btn {
+  position: absolute;
+  left: 95%;
+  top: 79%;
+  display: flex;
+  justify-content: space-between;
+}
+.black-btn div {
+  background: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  width: 150px;
+  margin: 0 10px;
+  text-align: center;
+  padding: 7px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.black-btn div p {
+  font-size: 11px;
+}
+
+.foot {
+  position: absolute;
+  top: 600px;
+  left: 60%;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.foot h4 {
+  padding: 10px;
+  font-size: 12px;
+  color: gray;
+}
+.foot p {
+  position: absolute;
+  top: 80px;
+  font-size: 13px;
+  color: gray;
+  display: block;
+}
+
+
+.line{
+  color: gray;
+}
