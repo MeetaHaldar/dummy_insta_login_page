@@ -1,5 +1,9 @@
-# dummy_insta_login_page
-60% similar to original website
+<h1> Dummy Instagram login page 📰 </h1>
+<ul>
+  
+  <li> 60% similar to original website </li>
+  <li> not working , just CSS only.</li>
+  </ul>
 
 <h3> view of this login site </h3>
 
