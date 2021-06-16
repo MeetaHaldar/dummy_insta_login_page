@@ -149,3 +149,12 @@ body {
 .line{
   color: gray;
 }
+
+
+
+@media (max-width:856px)
+{
+  #showcase .showcase-container {
+    display: none;
+  }
+}
