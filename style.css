@@ -154,7 +154,23 @@ body {
 
 @media (max-width:856px)
 {
-  #showcase .showcase-container {
+  #showcase .showcase-container img{
     display: none;
+  }
+
+  /* #showcase {
+   
+   max-width: auto;
+   align-items: center;
+   top: 0;
+   left: 0;
+  
+    position: relative;
+  } */
+ 
+  .main-menu .menu{
+   position: absolute;
+   left: 0;
+
   }
 }
